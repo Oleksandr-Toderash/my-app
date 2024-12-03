@@ -25,6 +25,11 @@
   gap: 35px;
 }
 
+.searchbar__option-btn-container {
+  display: flex;
+  gap: 5px;
+}
+
 .searchbar__option-btn-container button {
   width: 75px;
   height: 30px;
