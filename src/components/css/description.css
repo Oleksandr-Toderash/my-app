@@ -1,0 +1,65 @@
+.description__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.description__container img {
+  width: 272px;
+  height: 355px;
+  object-fit: cover;
+  object-position: 25%;
+}
+
+/* content  style */
+
+.description__content {
+  text-align: center;
+}
+
+.description__content h1 {
+  font-size: 2rem;
+}
+
+.description__content {
+    padding: 20px 20px 0px 10px;
+}
+
+.description__content .description__beanLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+.description__content .description__beanLogo:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 26px;
+}
+
+.description__content p {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  width: 370px;
+  height: 240px;
+  font-size: 14px;
+  line-height: 20.22px;
+  text-align: center;
+  background-color: rgb(219, 217, 217);
+}
+
+.description__stickConteiner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 61px;
+  margin-top: 60px;
+}
+
+.description__stick {
+  width: 240px;
+  height: 0px;
+  border-width: 1px;
+  border-color: black;
+}
