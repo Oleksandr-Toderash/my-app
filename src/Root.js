@@ -14,7 +14,16 @@ export class Root extends Component {
         <Header />
         <Description />
         <Searchbar />
-        <Cards />
+        <div className="card-box">
+          <div className='grid-card-container'>
+            <Cards countryCoffee='Brazil' priceCoffee='6.99' />
+            <Cards countryCoffee='Kenya' priceCoffee='6.99' />
+            <Cards countryCoffee='Columbia' priceCoffee='6.99' />
+            <Cards countryCoffee='Brazil' priceCoffee='6.99' />
+            <Cards countryCoffee='Brazil' priceCoffee='6.99' />
+            <Cards countryCoffee='Brazil' priceCoffee='6.99' />
+          </div>
+        </div>
       </div>
     );
   }

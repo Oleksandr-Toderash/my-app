@@ -1,10 +1,21 @@
+.grid-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.card-box {
+  margin: 0 auto;
+  width: 870px;
+  margin-bottom: 30px;
+}
 .card-container {
   display: flex;
   flex-direction: column;
 
   padding: 37px 27px 14px 27px;
   width: fit-content;
-  /* height: 260px; */
   border-radius: 8px;
   box-shadow: 5px 5px 15px 0px #00000040;
 }
@@ -21,7 +32,7 @@
   margin-bottom: 14px;
 }
 
-h1 {
+.card__description h1 {
   font-size: 14px;
   line-height: 20.22px;
   text-align: center;

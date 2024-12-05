@@ -2,7 +2,15 @@ import React, { Component } from 'react';
 import '../css/card.css'
 
 export class Cards extends Component {
+  constructor(props) {
+    super(props)
+    this.props = {
+      countryCoffee: '',
+      priceCoffee: ''
+    }
+  }
   render() {
+    const { countryCoffee, priceCoffee } = this.props;
     return (
       <div className="card-container">
         <div className='card__title'>
@@ -10,8 +18,8 @@ export class Cards extends Component {
         </div>
         <div className='card__description'>
           <h1>AROMISTICO Coffee 1 kg</h1>
-          <p className='card__country'>Brazil</p>
-          <p className='card__price'>6.99$</p>
+          <p className='card__country'>{countryCoffee}</p>
+          <p className='card__price'>{priceCoffee + '$'}</p>
         </div>
       </div>
     );
