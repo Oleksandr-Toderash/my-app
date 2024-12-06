@@ -1,0 +1,40 @@
+.footer__linksBoxContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.footer__linksBox  {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: 40px;
+  font-family: Merienda;
+  font-size: 1rem;
+  line-height: 17.33px;
+  width: fit-content;
+}
+
+.linksBox__BtnLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.footer__button {
+  height: fit-content;
+  width: fit-content;
+}
+
+/* symbol */
+
+.footer__beanLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+.footer__beanLogo:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 26px;
+}
